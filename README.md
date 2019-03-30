@@ -55,7 +55,35 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte3">3 - Variáveis e dados</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    <script>
+        var nome = "José";
+        var idade = 34;
+        var peso = 90.3;
+        var humano = true;
 
+        var alunos = ['jose','marcos','joão'];
+        var aluno = {
+            nome: alunos[0],
+            idade: 20,
+            peso: 80.8,
+            humano: true,
+        }
+        console.log(alunos);
+        console.log(alunos[1]);
+
+        console.log(aluno.nome);
+        console.log(aluno.peso);
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
