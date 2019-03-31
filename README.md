@@ -250,7 +250,32 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte9">9 - Estruturas de repetição</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    
+    <script>
 
+        // for , while
+
+        /*for (var i = 0; i <= 100 ;  i++){
+            console.log(i);
+        }*/
+
+        var j = 12344141;
+        while (j > 50){
+            console.log(j);
+            j /= 5;
+        }
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
