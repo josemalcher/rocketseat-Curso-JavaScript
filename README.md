@@ -190,7 +190,30 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte7">7 - Operadores lógicos</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    
+    <script>
 
+        // AND(&&) , OR (||), NOT (!==)
+        var sexo = 'M', idade = 23;
+
+        /*if (sexo === 'M' || idade >= 18){
+            console.log('ok');
+        }*/
+
+        var masculino = sexo === 'M'; // true
+        console.log(masculino);
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
