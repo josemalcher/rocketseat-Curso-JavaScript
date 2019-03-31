@@ -121,7 +121,25 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte5">5 - Funções</a>
 
-
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    
+    <script>
+        function soma(numero1, numero2) {
+            var resultado = numero1 + numero2;
+            return resultado;
+        }
+        var resultado = soma(10,200);
+        console.log(resultado);
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
