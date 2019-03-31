@@ -284,7 +284,29 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte10">10 - Intervalo e timeout</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    
+    <script>
 
+        function exibeAlgo(){
+            console.log("Ola mundo");
+        }
+        // intervalos
+        //setInterval(exibeAlgo(), 1000)
+
+        // atrasa
+        setTimeout(exibeAlgo, 2000)
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
