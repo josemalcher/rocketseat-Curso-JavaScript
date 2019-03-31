@@ -148,7 +148,40 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte6">6 - Condicionais</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    
+    <script>
+        function retornoSexo(sexo) {
+            // M , F
+            /*if(sexo === 'M'){
+                return 'Masculino';
+            }else if(sexo === 'F'){
+                return 'Masculino';
+            }else{
+                return 'outro';
+            }*/
 
+            switch (sexo) {
+                case 'M':
+                    return 'Masculino';
+                case 'F':
+                    return 'Feminino';
+                default:
+                    return  'outro';
+            }
+        }
+        var resultado = retornoSexo('M');
+        console.log(resultado);
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
