@@ -222,7 +222,26 @@ Curso Livro da Rocketseat - Diego Fernandes
 
 ## <a name="parte8">8 - Condição ternária</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat</title>
+</head>
+<body>
+    
+    <script>
 
+        var sexo = 'M';
+
+        var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+
+        console.log(retorno);
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
