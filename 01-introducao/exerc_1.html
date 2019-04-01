@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio Modulo 1</title>
+</head>
+<body>
+<script>
+    /*
+    *
+    * */
+    var endereco = {
+        rua: "Rua dos pinheiros",
+        numero: 1293,
+        bairro: "Centro",
+        cidade: "São Paulo",
+        uf: "SP"
+    };
+    function formatadorEndereco(end) {
+        return "O usuário mora em "+end.cidade+" / "+end.uf+", no bairro "+end.bairro+", na rua "+end.rua+" com nº "+end.numero+"."
+        // O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.
+    }
+    console.log(formatadorEndereco(endereco));
+
+</script>
+</body>
+</html>
