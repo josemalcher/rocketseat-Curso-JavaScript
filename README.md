@@ -455,6 +455,47 @@ SOLUÇÃO: [5º exercício](01-introducao/exerc_5.html)
 
 ## <a name="parte13">13 - Trabalhando com a DOM</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat - mod 2</title>
+</head>
+<body>
+
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botao" type="submit">Adicionar</button>
+    </div>
+
+    <script>
+
+        // Retorno é um vetor. Se houver varios elementos, pega o primeiro.
+        //var inputElement = document.getElementsByTagName('input')[0];
+        //var inputElement = document.getElementsByTagName('input');
+
+        // descrever o caminho do elemenot
+        //var inputElement = document.querySelector('body div#app input');
+        //var inputElement = document.querySelector('input[name=nome]');
+
+        //busca todos os elementos
+        //var inputElement = document.querySelectorAll('input');
+
+        //console.log(inputElement);
+
+        var inputElement = document.querySelector('input[name=nome]');
+        var btnElement = document.querySelector('button.botao');
+        btnElement.onclick = function () {
+
+            var texto = inputElement.value;
+            alert(texto);
+        }
+
+
+    </script>
+</body>
+</html>
+```
 
 
 [Voltar ao Índice](#indice)
