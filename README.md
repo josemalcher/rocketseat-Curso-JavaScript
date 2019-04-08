@@ -426,7 +426,27 @@ SOLUÇÃO: [5º exercício](01-introducao/exerc_5.html)
 
 ## <a name="parte12">12 - Eventos inline</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat - mod 2</title>
+</head>
+<body>
 
+    <div id="app">
+        <input onkeypress="mostraAlerta()" />
+    </div>
+
+    <script>
+        function mostraAlerta() {
+            alert('campo alerta ok!');
+        }
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
