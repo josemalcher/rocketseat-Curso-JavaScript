@@ -505,7 +505,37 @@ SOLUÇÃO: [5º exercício](01-introducao/exerc_5.html)
 
 ## <a name="parte14">14 - Lidando com elementos</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat - mod 2</title>
+</head>
+<body>
 
+    <div id="app">
+        <input type="text" id="nome">
+    </div>
+
+    <script>
+
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href','https://josemalcher.net');
+        linkElement.setAttribute('title', 'Site Jose Malcher Jr.');
+
+        var textElement = document.createTextNode('Acessar meu site');
+        linkElement.appendChild(textElement);
+
+        var conteinerElement = document.querySelector('#app');
+        conteinerElement.appendChild(linkElement);
+
+        var inputElement = document.querySelector('#nome');
+        conteinerElement.removeChild(inputElement);
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
