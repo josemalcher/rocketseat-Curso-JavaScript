@@ -544,7 +544,30 @@ SOLUÇÃO: [5º exercício](01-introducao/exerc_5.html)
 
 ## <a name="parte15">15 - Alterando estilos</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat - mod 2</title>
+</head>
+<body>
 
+    <div id="app">
+        <div class="box"></div>
+    </div>
+
+    <script>
+
+    var  boxElement = document.querySelector('.box');
+
+    boxElement.style.width = '100px';
+    boxElement.style.height = '100px';
+    boxElement.style.backgroundColor = '#f00';
+
+    </script>
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 

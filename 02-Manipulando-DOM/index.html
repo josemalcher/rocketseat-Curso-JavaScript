@@ -6,23 +6,16 @@
 <body>
 
     <div id="app">
-        <input type="text" id="nome">
+        <div class="box"></div>
     </div>
 
     <script>
 
-        var linkElement = document.createElement('a');
-        linkElement.setAttribute('href','https://josemalcher.net');
-        linkElement.setAttribute('title', 'Site Jose Malcher Jr.');
+    var  boxElement = document.querySelector('.box');
 
-        var textElement = document.createTextNode('Acessar meu site');
-        linkElement.appendChild(textElement);
-
-        var conteinerElement = document.querySelector('#app');
-        conteinerElement.appendChild(linkElement);
-
-        var inputElement = document.querySelector('#nome');
-        conteinerElement.removeChild(inputElement);
+    boxElement.style.width = '100px';
+    boxElement.style.height = '100px';
+    boxElement.style.backgroundColor = '#f00';
 
     </script>
 </body>
