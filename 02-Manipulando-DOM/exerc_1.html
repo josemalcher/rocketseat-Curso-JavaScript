@@ -5,6 +5,10 @@
     <title>Exercicio Modulo 2</title>
 </head>
 <body>
+
+    <button id="new">QUADRADO</button>
+    <div id="squares"></div>
+
 <script>
     /*
     * 1º exercício
@@ -12,6 +16,19 @@
     * Sempre que o botão for clicado um novo quadrado deve aparecer na tela.
     *
     * */
+    var btnElement = document.getElementById('new');
+    var squaresElement = document.getElementById('squares');
+
+    btnElement.onclick = function(){
+        var squares = document.createElement('div');
+        squares.style.width = '100px';
+        squares.style.height = '100px';
+        squares.style.backgroundColor = 'red';
+
+        squaresElement.appendChild(squares);
+    };
+
+   
 </script>
 </body>
 </html>

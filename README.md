@@ -580,7 +580,7 @@ SOLUÇÃO: [5º exercício](01-introducao/exerc_5.html)
 
 Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve aparecer na tela.
 
-SOLUÇÃO: []()
+SOLUÇÃO: [Solução 1](02-Manipulando-DOM/exerc_1.html)
 
 **2º exercício**
 
@@ -598,7 +598,7 @@ function getRandomColor() {
 var newColor = getRandomColor(); // #E943F0
 ```
 
-SOLUÇÃO: []()
+SOLUÇÃO: [Solução](02-Manipulando-DOM/exerc_2.html)
 
 
 **3º exercício**
@@ -615,7 +615,7 @@ Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:
 - Gabriel  
 - Lucas  
 
-SOLUÇÃO: []()
+SOLUÇÃO: [Solução](02-Manipulando-DOM/exerc_3.html)
 
 **4º exercício**
 
@@ -628,7 +628,7 @@ Seguindo o resultado do exercício anterior adicione um input em tela e um botã
 
 Ao clicar no botão, a função adicionar() deve ser disparada adicionando um novo item a lista de nomes baseado no nome preenchido no input e renderizando o novo item em tela juntos aos demais itens anteriores. Além disso, o conteúdo do input deve ser apagado após o clique.
 
-SOLUÇÃO: []()
+SOLUÇÃO: [Solução](02-Manipulando-DOM/exerc_4.html)
 
 [Voltar ao Índice](#indice)
 
