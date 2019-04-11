@@ -637,7 +637,29 @@ SOLUÇÃO: [Solução](02-Manipulando-DOM/exerc_4.html)
 
 ## <a name="parte17">17 - Estrutura do app</a>
 
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso JavaScript - Rocketseat - mod 3</title>
+</head>
+<body>
 
+    <div id="app">
+        <ul>
+            <li>Fazer Café <a href="#">Excluir</a></li>
+            <li>Estudar JS <a href="#">Excluir</a></li>
+            <li>Acessar comunidade RS-JS <a href="#">Excluir</a></li>
+        </ul>
+        <input type="text" placeholder="Digite uma tarefa">
+        <button>Adicionar</button>
+    </div>
+
+    <script src="todos.js"></script>
+
+</body>
+</html>
+```
 
 [Voltar ao Índice](#indice)
 
