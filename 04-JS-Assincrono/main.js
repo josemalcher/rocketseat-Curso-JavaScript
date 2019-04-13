@@ -1,7 +1,7 @@
-var minhaPrimise = function(){
+/* var minhaPrimise = function(){
     return new Promise(function(resolve,reject){
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://apii.github.com/users/josemalcher');
+        xhr.open('GET', 'https://api.github.com/users/josemalcher');
         xhr.send(null);
 
         xhr.onreadystatechange = function(){
@@ -23,4 +23,11 @@ minhaPrimise()
     .catch(function(error){
         console.warn(error)
     });
-
+ */
+axios.get('https://api.github.com/users/josemalcher')
+    .then(function(response){
+        console.log(response);
+    })
+    .catch(function(error){
+        console.warn(error)
+    });
