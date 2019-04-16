@@ -1002,6 +1002,8 @@ axios.get('https://api.github.com/users/josemalcher')
 
 ## <a name="parte26">26 - Desafio</a>
 
+[link PDF](https://station.rocketseat.com.br/api/files/1536687203601.pdf)
+
 **1º exercício**
 
 Crie uma função que recebe a idade de um usuário e retorna uma Promise que depois de 2 segundos retornará se usuário é maior ou não que 18 anos. Se o usuário ter mais que 18 anos de idade o resultado deve cair no .then, caso contrário, no .catch
@@ -1019,7 +1021,7 @@ checaIdade(20)
  });
 ```
 
-**SOLUÇÃO: [Resolvido 1]()**
+**SOLUÇÃO: [Resolvido 1](04-JS-Assincrono/Desafio_1.js)**
 
 **2º exercício**
 
@@ -1046,7 +1048,7 @@ Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:
 </ul>
 ```
 
-**SOLUÇÃO: [Resolvido 2]()**
+**SOLUÇÃO: [Resolvido 2](04-JS-Assincrono/Desafio_2.js)**
 
 **3º exercício**
 
@@ -1056,7 +1058,7 @@ A partir do resultado do exemplo anterior adicione um indicador de carregamento 
 <li>Carregando...</li>
 ```
 
-**SOLUÇÃO: [Resolvido 3]()**
+**SOLUÇÃO: [Resolvido 3](04-JS-Assincrono/Desafio_3.js)**
 
 [Voltar ao Índice](#indice)
 
